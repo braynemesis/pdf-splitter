@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "timestamp": "2025-02-14T19:55:21.548Z",
+    "originalSize": 3.843109130859375,
+    "targetSize": 20,
+    "parts": 1,
+    "filename": "BP_RIO UNIQUE (1).pdf"
+  },
+  {
+    "timestamp": "2025-02-14T20:04:48.576Z",
+    "originalSize": 2.0828208923339844,
+    "targetSize": 20,
+    "parts": 1,
+    "filename": "Carta_Proposta_Brayner_Felipe_de_Souza_Leite_assinado.pdf"
+  },
+  {
+    "timestamp": "2025-02-14T20:04:51.949Z",
+    "originalSize": 2.0828208923339844,
+    "targetSize": 10,
+    "parts": 1,
+    "filename": "Carta_Proposta_Brayner_Felipe_de_Souza_Leite_assinado.pdf"
+  },
+  {
+    "timestamp": "2025-02-14T20:06:31.788Z",
+    "originalSize": 0.05972576141357422,
+    "targetSize": 10,
+    "parts": 1,
+    "filename": "B4KpXE-FULL.pdf"
+  },
+  {
+    "timestamp": "2025-02-14T20:07:53.068Z",
+    "originalSize": 2.0828208923339844,
+    "targetSize": 20,
+    "parts": 1,
+    "filename": "Carta_Proposta_Brayner_Felipe_de_Souza_Leite_assinado.pdf"
+  },
+  {
+    "timestamp": "2025-02-14T20:07:58.508Z",
+    "originalSize": 2.0828208923339844,
+    "targetSize": 10,
+    "parts": 1,
+    "filename": "Carta_Proposta_Brayner_Felipe_de_Souza_Leite_assinado.pdf"
+  },
+  {
+    "timestamp": "2025-02-14T20:12:03.025Z",
+    "originalSize": 204.20041465759277,
+    "targetSize": 20,
+    "parts": 50,
+    "filename": "200MB-TESTFILE.ORG.pdf"
+  },
+  {
+    "timestamp": "2025-02-14T20:22:06.696Z",
+    "originalSize": 100.37918090820312,
+    "targetSize": 50,
+    "parts": 3,
+    "filename": "pkpadmin,+529-2711-1-CE.pdf"
+  }
+]

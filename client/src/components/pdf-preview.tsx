@@ -4,7 +4,7 @@ import { Skeleton } from "./ui/skeleton";
 
 // Configure pdf.js worker
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.js',
+  'client/public/pdf.min.mjs',
   import.meta.url,
 ).toString();
 
@@ -14,7 +14,8 @@ interface PDFPreviewProps {
 
 export function PDFPreview({ file }: PDFPreviewProps) {
   if (!file) return null;
-
+  console.log(file);
+  
   return (
     <Card className="p-4 mt-4 max-h-[600px] overflow-auto">
       <Document
