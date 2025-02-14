@@ -3,7 +3,10 @@ import { Card } from "./ui/card";
 import { Skeleton } from "./ui/skeleton";
 
 // Configure pdf.js worker
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  'pdfjs-dist/build/pdf.worker.min.js',
+  import.meta.url,
+).toString();
 
 interface PDFPreviewProps {
   file: File | null;
