@@ -14,7 +14,7 @@ interface PDFPreviewProps {
 
 export function PDFPreview({ file }: PDFPreviewProps) {
   if (!file) return null;
-  console.log(file);
+
   
   return (
     <Card className="p-4 mt-4 max-h-[600px] overflow-auto">

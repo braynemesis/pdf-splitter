@@ -22,7 +22,3 @@ export async function getSplitPDF(id: string) {
   const db = await initDB();
   return db.get(STORE_NAME, id);
 }
-
-export async function logUsage(log: UsageLog) {
-  await apiRequest("POST", "/api/logs", log);
-}

@@ -5,7 +5,7 @@ import { SizeSelector } from "@/components/size-selector";
 import { SplitProgress } from "@/components/split-progress";
 import { Button } from "@/components/ui/button";
 import { splitPDF } from "@/lib/pdf";
-import { getSplitPDF, logUsage, storeSplitPDF } from "@/lib/storage";
+import { getSplitPDF, storeSplitPDF } from "@/lib/storage";
 import { Download } from "lucide-react";
 import { nanoid } from "nanoid";
 import JSZip from "jszip";
@@ -36,14 +36,7 @@ export default function Home() {
       }
 
       setParts(partIds);
-      
-      await logUsage({
-        timestamp: new Date().toISOString(),
-        originalSize: file.size / (1024 * 1024),
-        targetSize: maxSize,
-        parts: splitParts.length,
-        filename: file.name
-      });
+    
     } finally {
       setSplitting(false);
     }
