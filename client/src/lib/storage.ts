@@ -1,6 +1,4 @@
 import { openDB } from "idb";
-import type { UsageLog } from "@shared/schema";
-import { apiRequest } from "./queryClient";
 
 const DB_NAME = "pdf-splitter";
 const STORE_NAME = "split-files";
