@@ -1,0 +1,10 @@
+[[plugins]]
+  # Installs the Lighthouse Build Plugin for all deploy contexts
+  package = "@netlify/plugin-lighthouse"
+
+# The following redirect is intended for use with most SPAs
+# that handle routing internally.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
